@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+p{
+    color: green;
+    font-size: 16px;
+    font-family: "Times New Roman";
+    font-weight: 700;
+    line-height: 1.5;/* */
+    text-decoration: none ;
+    text-transform: capitalize;/* viết hoa, viết thường, ký tự đầu của chữ viết hoa */
+    text-align: right;/* căn chỉnh đoạn văn */
+    text-indent: 20px;/* thụt nùi đầu đoạn văn */
+    width: 800px; /* kích thước của khối */
+    background-color: peru;
+}
