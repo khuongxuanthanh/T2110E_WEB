@@ -1,0 +1,18 @@
+h3{
+    color: #f3073e; font-style: italic; text-decoration: underline;
+}
+th{
+    text-align: right;
+}
+h4{
+    line-height: 1px;
+}
+#width01{
+    width: 800px;
+}
+#image01{
+    width: 100px; height: 130px;
+}
+#width02{
+    width: 800px;
+}
