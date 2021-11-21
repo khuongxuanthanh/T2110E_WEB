@@ -1,5 +1,5 @@
 h3{
-    color: #f3073e; font-style: italic; text-decoration: underline;
+    color: #f3073e; font-style: italic; text-decoration: underline; line-height: 1px;
 }
 th{
     text-align: right;
@@ -15,4 +15,7 @@ h4{
 }
 #width02{
     width: 800px;
+}
+#trang{
+    justify-content: center;
 }
