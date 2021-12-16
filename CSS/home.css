@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+header {
+    height: 120px;
+    background-color: #ef5122;
+    display: flex;
+}
+
+h1 {
+    margin: auto;
+}
+
+section {
+    height: auto;
+    background-color: white;
+    font-size: 20px;
+}
+
+footer {
+    height: 70px;
+    background-color: #0bef06;
+}

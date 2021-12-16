@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    padding: 0 70px 0;
+}
+
+.nav-list {
+    display: flex;
+    margin: auto 16px;
+}
+
+.nav-item {
+    font-weight: bold;
+    list-style: none;
+    margin: 0 16px;
+}
+
+/* hien thi noi dung */
+.noi-dung {
+    margin: 0 70px;
+    padding: 32px 0;
+    display: flex;
+}
+
+.noi-dung-frist {
+    background-color: white;
+    padding: 68px 68px;
+    flex: 2.5;
+    margin-right: 32px;
+    max-width: 70%;
+}
+
+.noi-dung-last {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 30%;
+}
+
+.noi-dung-item-cl1 {
+    background-color: white;
+    padding: 32px;
+    margin-top: 32px;
+}
+
+.noi-dung-item-cl2 {
+    background-color: #4f4b4b;
+    color: white;
+    padding: 32px;
+}
+
+.noi-dung-item-cl3 {
+    background-color: red;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-width {
+    width: 36px;
+    height: 36px;
+}
+
+.icons-layout {
+    display: flex;
+    max-width: 200px;
+    justify-content: space-between;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.email-item {
+    background-color: white;
+    padding: 16px;
+    color: #c7c1c1;
+}
+
+.search {
+    border: 1px solid #dcc6c6;
+    padding: 16px 8px 16px;
+    color: #d5cece;
+}

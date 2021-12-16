@@ -1,0 +1,42 @@
+
+.item{
+
+    height: 1000px;
+    border:1px solid white;
+    margin: 10px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+.khung{
+    background-color: #749ac2;
+    height: 150px;
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+#width1{
+    width: 25%; background-color: #eee5e5;
+}
+#width2{
+    width: 50%;
+}
+.circle #images{
+    padding-left: 100px;
+}
+.center{
+    vertical-align: 15px;/* can chu tren duoi va giua */
+}
+.circle{/* hien thi anh trong khung tron */
+    background-image: url("../images/cv.jpg");
+    background-size: cover;
+    clip-path: circle(50%);
+    height: 10em;
+    width: 10em;
+}
+.thudaudong{
+    padding: 20px;
+}
+.khoangcach{
+    margin-top: 100px;
+}
